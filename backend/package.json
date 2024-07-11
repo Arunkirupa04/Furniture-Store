@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for Furniture store app using flutter",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "set NODE_ENV = development && nodemon backend/server.js",
+    "prod": "set NODE_ENV = production && nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.8",
+    "path": "^0.12.7",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "author": "Aruran Kirupanantha",
+  "license": "ISC"
+}

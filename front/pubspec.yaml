@@ -1,0 +1,38 @@
+name: food_delivery_app
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.4
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.0
+  equatable: ^2.0.3
+  http: ^0.13.3
+  shared_preferences: ^2.0.13
+  # permission_handler: ^10.1.0
+  ar_flutter_plugin: ^0.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/images/
+
+flutter_sms:
+  git:
+    url: https://github.com/fluttercommunity/flutter_sms.git
+    ref: master
